@@ -9,6 +9,6 @@ public class StudentGreetingController {
 
     @GetMapping("/students/greet")
     public String greetStudent(@RequestParam(defaultValue = "Student") String name) {
-        return "Hello, " + name + "! Welcome to the student greeting system.";
+        return "Hello, " + name + "! Welcome to the greeting system.";
     }
 }
